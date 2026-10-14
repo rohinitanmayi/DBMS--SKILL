@@ -1,0 +1,10 @@
+$kind: http-request
+name: http://localhost:8080/students
+description: ""
+url: http://localhost:8080/students
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0bac}}"
+order: 2410060513207590
