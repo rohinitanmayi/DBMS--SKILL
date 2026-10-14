@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://localhost:8080/auth/register
+description: ""
+url: http://localhost:8080/auth/register
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "username": "asha",
+      "password": "secret123"
+    }
+order: 1790417531406

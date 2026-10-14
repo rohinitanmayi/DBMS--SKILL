@@ -1,0 +1,23 @@
+$kind: http-request
+name: http://localhost:8080/students/6ab798e0eebabebffc6c1c4b
+description: ""
+url: http://localhost:8080/students/6ab798e0eebabebffc6c1c4b
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Rohini Tanmayi\",\r
+
+    \  \"age\": 21,\r
+
+    \  \"course\": \"Computer Science\",\r
+
+    \  \"email\": \"rohini@example.com\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0bac}}"
+order: 4464843034273819
